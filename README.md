@@ -1,68 +1,60 @@
-# 🤖 AI Resume Analyzer
+# AI Resume Analyzer
 
-## 📌 Project Description
+## Overview
+AI Resume Analyzer is a Python and Streamlit based application that analyzes resumes using Natural Language Processing (NLP). It extracts text from PDF resumes, identifies skills, calculates a resume score, provides ATS suggestions, and recommends suitable career paths.
 
-AI Resume Analyzer is a Python + Streamlit based application that analyzes resumes using Artificial Intelligence and NLP.
-
-It extracts skills from resumes, calculates a resume score, recommends missing skills, suggests career paths, provides ATS suggestions, and generates a PDF report.
-
----
-
-## 🚀 Features
-
+## Features
 - User Login & Signup
-- Resume Upload (PDF)
+- Upload PDF Resume
 - Resume Text Extraction
 - Skill Extraction
 - Resume Score
-- Missing Skills Recommendation
-- Career Recommendation
 - ATS Suggestions
-- Dashboard
-- PDF Report Download
+- Career Recommendations
+- PDF Report Generation
 
----
-
-## 🛠 Technologies Used
-
+## Technologies Used
 - Python
 - Streamlit
 - NLP
 - SQLite
-- Matplotlib
-- FPDF
+- PyMuPDF
+- Git & GitHub
 
----
-
-## 📂 Project Structure
+## Project Structure
 
 AI_Resume_Analyzer/
-│
-├── assets/
-├── database/
-├── datasets/
-├── modules/
-├── reports/
-├── uploads/
 ├── app.py
+├── database/
+├── modules/
+├── uploads/
+├── reports/
+├── datasets/
 └── requirements.txt
 
----
+## Installation
 
-## ▶️ How to Run
+```bash
+git clone https://github.com/vishalkamble7396/AI-Resume-Analyzer.git
 
-Install dependencies:
+cd AI-Resume-Analyzer
 
 pip install -r requirements.txt
 
-Run the project:
-
 streamlit run app.py
+```
 
----
+## Future Improvements
 
-## 👨‍💻 Developed By
+- AI Resume Matching
+- Job Recommendation
+- Resume Templates
+- Multi-language Support
+
+## Author
 
 Vishal Kamble
 
-Diploma AIML (MSBTE)
+Diploma AIML Student
+
+MSBTE K-Scheme
