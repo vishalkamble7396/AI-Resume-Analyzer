@@ -2,3 +2,4 @@ streamlit
 PyMuPDF
 matplotlib
 fpdf2
+reportlab
